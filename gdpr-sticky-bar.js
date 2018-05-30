@@ -1,17 +1,3 @@
-    $(document).ready(function() {
-        $('#gdpr-alert-container').stickyalert({
-            barColor: '#0082c8', // alert background color
-            barFontColor: '#FFF', // text font color
-            barFontSize: '1.1rem', // text font size
-            barText: 'Our website uses cookies. <u>Learn more</u>', // the text to display, linked with barTextLink
-            barTextLink: '/privacy#cookies', // url for anchor
-            cookieRememberDays: '365', // in days
-            displayDelay: '3000' // in milliseconds, 3 second default
-        });
-    });
-
-
-
 (function($){
 
   $.fn.extend({
